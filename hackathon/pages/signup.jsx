@@ -14,7 +14,7 @@ export default function Signup() {
     e.preventDefault();
 
     try {
-      const res = await axios.post("https://well-food-api.vercel.app/register", {
+      const res = await axios.post("https://well-food-api.vercel.app/api/register", {
         email,
         password,
         username,
