@@ -13,7 +13,7 @@ export default function Signin() {
     e.preventDefault();
 
     try {
-      const res = await axios.post("http://localhost:5000/api/login", {
+      const res = await axios.post("https://well-food-api.vercel.app/login", {
         password,
         username,
       });
